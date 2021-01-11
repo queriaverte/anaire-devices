@@ -130,9 +130,9 @@ bool initialConfig = false;
 #include <Wire.h>
 #include "SSD1306Wire.h"
 
-// SCL and SDA pin connections
-#define OLED_SCK_GPIO 4 // signal GPIO2 (D4)
-#define OLED_SDA_GPIO 2 // signal GPIO0 (D3)
+// SCL and SDA pin connections  - Updated comments to the right correspondence
+#define OLED_SCK_GPIO 4 // signal GPIO4 (D2)
+#define OLED_SDA_GPIO 2 // signal GPIO2 (D4)
 
 // for 128x32 displays:
 SSD1306Wire display(0x3c, OLED_SDA_GPIO, OLED_SCK_GPIO, GEOMETRY_128_32);  // ADDRESS, SDA, SCL
